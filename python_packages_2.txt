@@ -1,0 +1,31 @@
+Python Packages
+│
+├── Standard Library
+│   ├── math
+│   ├── os
+│   ├── datetime
+│   ├── json
+│   └── random
+│
+├── Third-Party
+│   ├── requests
+│   ├── pandas
+│   ├── numpy
+│   ├── matplotlib
+│   └── openpyxl
+│
+├── Web
+│   ├── flask
+│   ├── django
+│   └── fastapi
+│
+├── Database
+│   ├── SQLAlchemy
+│   ├── pymysql
+│   └── psycopg
+│
+└── Development
+    ├── pytest
+    ├── black
+    ├── ruff
+    └── mypy

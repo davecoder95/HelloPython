@@ -1,0 +1,67 @@
+# ==========================================
+# PYTHON + VS CODE SETUP
+# ==========================================
+
+1. Install Python
+   □ Install Python
+   □ Check: python --version
+
+2. Install VS Code Extensions
+   □ Python
+   □ Pylance
+
+3. Create Project Folder
+   □ Create project folder
+   □ Open folder in VS Code
+
+4. Create Virtual Environment
+   □ Create .venv
+   □ Select .venv as Python interpreter
+
+5. Create Project Structure
+   □ src/
+   □ tests/
+   □ .gitignore
+   □ README.md
+
+6. Test Python
+   □ Create hello.py
+   □ Run the program
+   □ Confirm output
+
+7. Set Up Git
+   □ git init
+   □ git branch -M main
+   □ git status
+   □ git add .
+   □ git commit
+
+8. Verify
+   □ .venv is NOT tracked by Git
+   □ Python files are tracked
+   □ Git status is clean
+
+Your computer
+│
+├── Python
+│
+├── Project A
+│   └── .venv       ← packages for Project A
+│
+└── Project B
+    └── .venv       ← packages for Project B
+
+
+Create project
+      ↓
+python -m venv .venv
+      ↓
+Activate .venv
+      ↓
+Install packages
+      ↓
+Write Python code
+      ↓
+Run / test
+      ↓
+Git commit

@@ -1,0 +1,148 @@
+# ==========================================
+# PYTHON PACKAGES
+# ==========================================
+
+
+# ==========================================
+# 1. STANDARD LIBRARY
+# Comes with Python
+# No pip install required
+# ==========================================
+
+import math
+import os
+import datetime
+import json
+import random
+
+# math       → mathematics
+# os         → files and folders
+# datetime   → dates and times
+# json       → JSON data
+# random     → random numbers
+
+
+# ==========================================
+# 2. THIRD-PARTY PACKAGES
+# Install with pip
+# ==========================================
+
+# requests   → websites / HTTP
+# pandas     → data analysis
+# numpy      → mathematics / arrays
+# matplotlib → charts
+# openpyxl   → Excel files
+# flask      → web applications
+# fastapi    → APIs
+
+
+# Example installation:
+#
+# python -m pip install requests
+#
+# Example:
+import requests
+
+# Output:
+# No output unless you print something
+
+
+# ==========================================
+# 3. DATA / SCIENCE PACKAGES
+# ==========================================
+
+# numpy
+# pandas
+# matplotlib
+# scipy
+# seaborn
+
+
+# ==========================================
+# 4. WEB DEVELOPMENT PACKAGES
+# ==========================================
+
+# flask
+# django
+# fastapi
+# requests
+
+
+# ==========================================
+# 5. EXCEL / OFFICE PACKAGES
+# ==========================================
+
+# openpyxl  → Excel
+# python-docx → Word
+# python-pptx → PowerPoint
+# reportlab → PDF
+
+
+# ==========================================
+# 6. DATABASE PACKAGES
+# ==========================================
+
+# sqlite3  → SQLite (built into Python)
+# SQLAlchemy → databases
+# pymysql → MySQL
+# psycopg → PostgreSQL
+
+
+# ==========================================
+# 7. TESTING PACKAGES
+# ==========================================
+
+# pytest
+# unittest (built into Python)
+# coverage
+
+
+# ==========================================
+# 8. DEVELOPMENT / CODE QUALITY
+# ==========================================
+
+# black → code formatting
+# ruff  → code checking
+# mypy  → type checking
+
+
+# ==========================================
+# 9. YOUR OWN PACKAGE
+# ==========================================
+
+# You can create your own package:
+
+# my_package/
+# ├── __init__.py
+# ├── calculator.py
+# └── users.py
+
+# Then import it:
+
+# from my_package import calculator
+
+
+# ==========================================
+# USEFUL COMMANDS
+# ==========================================
+
+# Check pip:
+# python -m pip --version
+
+# Install package:
+# python -m pip install requests
+
+# Install several packages:
+# python -m pip install requests pandas numpy
+
+# Show installed packages:
+# python -m pip list
+
+# Show package information:
+# python -m pip show requests
+
+# Remove package:
+# python -m pip uninstall requests
+
+# Upgrade package:
+# python -m pip install --upgrade requests
